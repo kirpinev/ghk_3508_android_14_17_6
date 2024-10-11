@@ -32,7 +32,7 @@ export const ThxLayout = () => {
         <ButtonMobile
           block
           view="primary"
-          href="alfabank:///dashboard/"
+          href="alfabank:///dashboard/alfa_check_cards"
         >
           Хорошо
         </ButtonMobile>
