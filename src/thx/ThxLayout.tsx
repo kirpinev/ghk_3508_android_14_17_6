@@ -24,8 +24,7 @@ export const ThxLayout = () => {
           Только тссс
         </Typography.TitleResponsive>
         <Typography.Text tag="p" view="primary-medium" defaultMargins={false}>
-          Вы поучаствовали в очень важном исследовании, которое поможет улучшить
-          продукт. Вы – наш герой!
+          Вы поучаствовали в очень важном исследовании, которое поможет создать персональный тариф для молодежи. Вы – наш герой!
         </Typography.Text>
       </div>
 
@@ -33,7 +32,7 @@ export const ThxLayout = () => {
         <ButtonMobile
           block
           view="primary"
-          href="alfabank:///dashboard/alfa_check_cards"
+          href="alfabank:///dashboard/alfa_subscriptions"
         >
           Хорошо
         </ButtonMobile>
