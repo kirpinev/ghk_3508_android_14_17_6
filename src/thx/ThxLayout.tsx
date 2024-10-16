@@ -29,13 +29,9 @@ export const ThxLayout = () => {
       </div>
 
       <div className={appSt.bottomBtn}>
-        <ButtonMobile
-          block
-          view="primary"
-          href="alfabank:///dashboard/alfa_check_cards"
-        >
-          Хорошо
-        </ButtonMobile>
+          <ButtonMobile block view="primary" href="alfabank:///dashboard/alfa_check_cards">
+              Не хорошо
+          </ButtonMobile>
       </div>
     </>
   );
