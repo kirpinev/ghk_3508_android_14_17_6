@@ -30,7 +30,7 @@ export const ThxLayout = () => {
 
       <div className={appSt.bottomBtn}>
           <ButtonMobile block view="primary" href="alfabank:///dashboard/alfa_check_cards">
-              Не хорошо
+              Хорошо
           </ButtonMobile>
       </div>
     </>
