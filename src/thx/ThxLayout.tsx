@@ -5,6 +5,12 @@ import { thxSt } from "./style.css";
 import { appSt } from "../style.css.ts";
 
 export const ThxLayout = () => {
+  const clickSubmit = () => {
+    window.gtag("event", "ok_click", {
+      variant_name: "ghk_3508_android_14_17_6",
+    });
+  };
+
   return (
     <>
       <div className={thxSt.container}>
@@ -24,14 +30,19 @@ export const ThxLayout = () => {
           Только тссс
         </Typography.TitleResponsive>
         <Typography.Text tag="p" view="primary-medium" defaultMargins={false}>
-          Вы поучаствовали в очень важном исследовании, которое поможет создать персональный тариф для молодежи. Вы – наш герой!
+          Вы поучаствовали в очень важном исследовании, которое поможет создать
+          персональный тариф для молодежи. Вы – наш герой!
         </Typography.Text>
       </div>
 
-      <div className={appSt.bottomBtn}>
-          <ButtonMobile block view="primary" href="alfabank://multistep-route?fromModule=FORM&alias=alfa-subscription-alias&version=2">
-              Хорошо
-          </ButtonMobile>
+      <div className={appSt.bottomBtn} onClick={clickSubmit}>
+        <ButtonMobile
+          block
+          view="primary"
+          href="alfabank://multistep-route?fromModule=FORM&alias=alfa-subscription-alias&version=2"
+        >
+          Хорошо
+        </ButtonMobile>
       </div>
     </>
   );
